@@ -1,0 +1,388 @@
+p{
+  color: rgb(94, 89, 89);
+  
+}
+ div1{
+    display: flex;
+    background-color: white;
+ } 
+@media (max-width: 800px) {
+  div1 {
+    flex-direction: column;
+  }
+}
+  
+.headephone{
+    
+    margin:80px;
+    border-radius: 4px;
+    padding: 5px;
+    width: 470px;
+  }
+
+  @media (max-width: 800px) {
+    .headephone {
+      flex-direction: column;
+      margin-left: 20%;
+    }
+  }
+.pclass{
+    color: orange;
+    letter-spacing: 5px;
+    padding: 20px 0px 20px 0px;
+  }
+.pclass2{
+    margin: 6px;
+    padding: 20px 0px 20px 0px;
+    color: rgb(94, 89, 89);
+}
+rightdiv1{
+    padding: 30px 5px 80px 0px;
+    margin: 60px;
+    
+}
+rightdiv1 p{
+  line-height: 1.6;
+}
+.doller{
+  padding: 2px 0px 10px 0px;
+}
+.button1{
+  background-color:rgb(206, 201, 200);
+  border: none;
+  color: black;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button1:hover{
+  background-color: rgb(237, 231, 225);
+}
+.button2{
+  background-color:rgb(245, 102, 77);
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+.button2:hover {
+    background-color: rgb(233, 165, 153);
+    color: white;
+  }
+
+
+div2{
+  display: flex;
+}
+@media (max-width: 800px) {
+  div2 {
+    flex-direction: column;
+  }
+}
+leftdiv2{
+  float: left;
+  padding: 20px 55px 0px 70px;
+  width: 100%;
+  line-height: 1.6;
+}
+.div2header{
+  line-height: 2;
+  
+}
+rightdiv2{
+  float: left;
+  padding: 20px 0px 50px 70px ;
+ 
+  width: 100%;
+}
+span{
+  color: rgb(245, 102, 77);
+}
+div2 rightdiv2 p{
+  padding: 5px;
+}
+div3{
+  display: flex;
+  
+}
+
+@media (max-width: 800px) {
+  div3{
+    flex-direction: column;
+    
+  }
+}
+.div3image1{
+  margin:60px 0px 35px 60px ;
+    border-radius: 10px;
+    
+    width: 480px;
+    height: 250px;
+    flex-direction: row;
+  
+}
+@media (min-width:800px) {
+.div3image2{
+    margin:0px 0px 5px 60px ;
+    border-radius: 10px;
+    
+    width: 480px;
+    height: 250px;
+    flex-direction: row;
+}
+.div3image1{
+  margin:60px 0px 35px 60px ;
+    border-radius: 10px;
+    
+    width: 480px;
+    height: 250px;
+    flex-direction: row;
+  
+}
+}
+@media (max-width:800px) {
+  .div3image2{
+      margin:0px 0px 5px 140px ;
+      border-radius: 10px;
+      
+      width: 480px;
+      height: 250px;
+      flex-direction: row;
+  }
+  .div3image1{
+    margin:60px 0px 35px 140px ;
+      border-radius: 10px;
+      
+      width: 480px;
+      height: 250px;
+      flex-direction: row;
+    
+  }
+  }
+@media (min-width:800px) {
+.div3image3{
+  margin:60px 60px 0px 0px;
+    border-radius: 10px;
+    
+    width: 575px;
+    flex-direction: column;
+}
+}
+@media (max-width:800px) {
+  .div3image3{
+    margin:60px 60px 100px 100px;
+      border-radius: 10px;
+      
+      width: 575px;
+      flex-direction: column;
+  }
+  }
+
+
+div6{
+  display: flex;
+}
+@media (max-width: 800px) {
+  div6{
+    flex-direction: column;
+  }
+}
+@media (min-width:801px) {
+leftdiv6{
+  padding: 150px 70px 0px 70px;
+ 
+}
+leftdiv6 p{
+  padding: 25px 0px 0px 0px;
+  line-height: 1.6; 
+}
+}
+@media (max-width:801px) {
+  leftdiv6{
+    padding: 150px 70px 0px 70px;
+    text-align: center;
+  }
+  leftdiv6 p{
+    padding: 25px 0px 0px 0px;
+    line-height: 1.6; 
+  }
+  }
+rightdiv6{
+  flex-direction: row;
+  flex-grow: 5;
+  
+}
+/*swati's code*/
+
+
+div4{
+  display:flex;
+  flex-direction: row;
+  flex:100%;
+  margin:60px 60px 0px 60px;
+  
+
+
+}
+@media (max-width: 800px) {
+  div4 {
+      flex-direction: column;
+   }
+
+}
+/*container1 css*/
+@media (min-width:801px) {
+.container1{
+  background-color: rgb(238, 235, 235);
+  margin:16px;
+  height:290px;
+  width:350px;
+  border-radius:10px;  
+}
+}
+
+@media (max-width:801px) {
+  .container1{
+    background-color: rgb(238, 235, 235);
+    height:290px;
+    width:350px;
+    border-radius:10px;
+    margin-bottom:25%;  
+    margin-left:25%
+  }
+  }
+/*image1 css*/
+.picture1{
+  height:210px;
+  width:170px;
+  
+  margin-top:50px;
+  margin-left:90px;
+}
+/*xx99 css*/
+.text1{
+
+  position:absolute;
+  color:black;
+  margin-top:70px;
+  margin-left:90px;
+   
+
+}
+/*orangebox1 css*/
+.box1{
+  
+  border-radius:0px;
+  height:50px;
+  width:200px;
+  margin-left:80px;
+  margin-top:0px;
+  
+}
+/*seeproduct1 css*/
+.see1{
+  background-color:rgb(245, 102, 77);
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 120px 40px 0px 80px; 
+  cursor: pointer;
+  position: relative;
+}
+.see1:hover{
+  background-color: rgb(233, 165, 153);
+ color: white;
+}
+/*container2 css div6*/
+@media (min-width : 801px) {
+div5{
+  display:flex;
+  flex-direction: row;
+  flex:100%;
+  margin:  200px 60px 0px 60px;
+
+}
+}
+@media (max-width : 801px) {
+  div5{
+    display:flex;
+    flex-direction: row;
+    flex:100%;
+    margin: 0px 60px 0px 120px;
+  
+  }
+  }
+@media (max-width: 800px) {
+  div5{
+      flex-direction: column;
+   }
+}
+@media (min-width:801px){
+  .container2{
+    background-color: rgb(222, 220, 220);
+    margin:16px;
+    height:210px;
+    width:350px;
+    border-radius:10px;
+  }
+}
+@media (max-width:801px){
+  .container2{
+    background-color: rgb(222, 220, 220);
+    margin-bottom :10%;
+    margin-left: 17%;
+    height:210px;
+    width:350px;
+    border-radius:10px;
+
+    
+  }
+}
+.image2{
+  margin-left:100px;
+  margin-top:-35px;
+  height:160px;
+  width:150px; 
+  background:none; 
+}
+.image2:hover {
+  box-shadow: 0 0 2px 1px rgba(61, 63, 63, 0.5);
+  opacity:0.7;
+}
+.text2{
+  margin-left:120px;
+  color:black;
+  margin-top:10px;
+  font-size: large;
+}
+.shop2{
+  margin-left:150px;
+  margin-top:10px;
+  
+  color:black ;
+  text-decoration: none;
+}
+a:link { text-decoration: none;
+color: black; }
+a:visited { text-decoration: none;
+  color: black; }
+a:hover { 
+  text-decoration: none;
+  color:rgb(245, 102, 77);
+ 
+}
+a:active { text-decoration: none;
+  color: black; }
+

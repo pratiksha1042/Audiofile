@@ -1,0 +1,300 @@
+.background-page{
+    background-color: hsl(0,0%,89%);
+    height: auto;
+    width: 100%;
+}
+.go-back{
+    min-height: 96px;
+    min-width: 1110px;
+    
+}
+.button-1{
+    margin-top:70px;
+    margin-left:170px;
+    border:none;
+    background: none;   
+}
+.checkout-box{
+    height:1078px;
+    width:1000px;
+    margin-left:170px;
+    
+
+}
+.checkout-box-div-1{
+    height:1000px;
+    width:640px;
+    background-color: white;
+    border-radius: 8px;
+    float:left;
+}
+
+.checkout-box-div-2{
+    height:570px;
+    width: 340px;
+    background-color: white;
+    border-radius: 8px;
+    float:right;
+}
+.form-area{
+    height:950px;
+    width:640px;
+}
+.heading-1{
+    margin-top: 32px;
+    margin-left: 34px;
+    font-family: "Manrope",sans-serif;
+    font-size: 30px;
+    letter-spacing: 1.6px;
+}
+.billing-div{
+    height:270px;
+    width:580px;
+    margin-left:34px;
+    margin-top:20px;
+    font-family: "Manrope",sans-serif;
+    font-size: 12px;
+    color:hsl(22,65%,57%);
+    letter-spacing: 1.6px; 
+}
+.input1{
+    height:230px;
+    width:580px;
+    
+}
+.input1-1{
+    height:100px;
+    width:260px;
+    float: left;
+}
+.label1-1{
+    height:25px;
+    width:260px;
+    color:black;
+    margin-top:5px;
+}
+#name{
+    height:50px;
+    width:260px;
+}
+.input1-2{
+    height:100px;
+    width:260px;
+    float: right;
+}
+
+.label1-2{
+    height:25px;
+    width:260px;
+    color:black;
+    margin-top:5px;
+}
+#email{
+    height:50px;
+    width:260px;
+}
+
+.input1-3{
+    margin-top:20px;
+    height:100px;
+    width:260px;
+    float: left;
+}
+
+.label1-3{
+    height:25px;
+    width:260px;
+    color:black;
+    margin-top:5px;
+}
+#phone{
+    height:50px;
+    width:260px;
+}
+/*shipping div css*/
+.shipping-div{
+    height:315px;
+    width:580px;
+    margin-left:34px;
+    font-family: "Manrope",sans-serif;
+    font-size: 12px;
+    color:hsl(22,65%,57%);
+    letter-spacing: 1.6px;
+    
+}
+.input2{
+    height:230px;
+    width:580px;
+    
+}
+.input2-1{
+    height:100px;
+    width:580px;
+    float: left;
+}
+.label2-1{
+    height:25px;
+    width:260px;
+    color:black;
+    margin-top:5px;
+}
+#address{
+    height:50px;
+    width:100%;
+}
+.input2-2{
+    height:100px;
+    width:260px;
+    float: left;
+}
+.label2-2{
+    height:25px;
+    width:260px;
+    color:black;
+    margin-top:5px;
+}
+#zip{
+    height:50px;
+    width:260px;
+}
+.input2-3{
+    height:100px;
+    width:260px;
+    float: right;
+}
+.label2-3{
+    height:25px;
+    width:260px;
+    color:black;
+    margin-top:5px;
+}
+#city{
+    height:50px;
+    width:260px;
+}
+.input2-4{
+    height:100px;
+    width:260px;
+    float: left;
+}
+.label2-4{
+    height:25px;
+    width:260px;
+    color:black;
+    margin-top:5px;
+}
+#country{
+    height:50px;
+    width:260px;
+}
+/*payment div css*/
+.payment-div{
+    height:310px;
+    width:580px;
+    margin-left:34px;
+    font-family: "Manrope",sans-serif;
+    font-size: 12px;
+    color:hsl(22,65%,57%);
+    letter-spacing: 1.6px;
+   
+
+}
+.input3{
+    height: 40px;
+    width:580px;
+}
+.input3-1{
+    height:140px;
+    width:280px;
+    float:left;
+    color:black;
+}
+.Radio-button{
+    height:140px;
+    width:280px;
+    float:right;
+}
+.mode-1{
+    height: 50px;
+    width:280px;
+    
+}
+.e-Money{
+    margin-left: 20px;
+    color: black;
+}
+.mode-2{
+    margin-top:35px;
+    height: 50px;
+    width:280px;   
+}
+.Cash-On-Delivery{
+    margin-left: 20px;
+    color:black;
+}
+
+.input3-2{
+    height:70px;
+    width:280px;
+    float:right;
+    color:black;
+    
+}
+.label3-1{
+    height:25px;
+    width:260px;
+    color:black;
+    margin-top:5px;
+    float:right;
+}
+#trans{
+    height:50px;
+    width:260px;
+}
+.label3-2{
+    height:25px;
+    width:260px;
+    color:black;
+    margin-top:5px;
+    float: left;
+}
+#pin{
+    height:50px;
+    width:260px;
+}
+.checkout-box-div-2 .head{
+    margin-left: 15%;
+    margin-top: 15%;
+}
+.checkout-box-div-2 .cartblock{
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: space-between;
+}
+
+.checkout-box-div-2 .cartblock .cartblock2 .checkoutbutton{
+    align-items: center;
+    background-color: rgb(245, 102, 77);
+    width: 100%;
+    font-size: large;
+    color: white;
+    padding-top:4%;
+    padding-bottom: 4%;
+    border: none;
+}
+.checkout-box-div-2 .cartblock .cartblock2 .checkoutbutton:hover{
+    align-items: center;
+    background-color: hsl(21,94%,75%);
+    width: 100%;
+    font-size: large;
+    color: white;
+    padding-top:4%;
+    padding-bottom: 4%;
+    border: none;
+}
+.checkout-box-div-2 .cartblock .cartblock1 {
+    height: 250px;
+}

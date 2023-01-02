@@ -1,0 +1,23 @@
+{
+    "items": [
+        {
+        "Tittle": "NEW PRODUCT",
+        "Name1": "XX99 MARK II",
+        "Name2":"HEADPHONES",
+        "body":"The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound.",
+        "price":"$2,999"
+        },
+        {
+            "name":"FEATURES",
+            "body1":"The new XX99 Mark II headphones is the pinnacle of pristine audio. It redefines your premium headphone experience by reproducing the balanced depth and precision of studio-quality sound.",
+            "body2":"As the gold standard for headphones, the classic XX99 Mark I offers detailed and accurate audio reproduction for audiophiles, mixing engineers, and music aficionados alike in studios and on the go.As the gold standard for headphones"
+        },
+        {
+            "info_head1":"BRINGING YOU THE",
+            "info_head2":"BEST",
+            "info_head3":"AUDIO GEAR",
+            "info_body":"Located at the heart of New York City, Audiophile is the premier store for high end headphones, earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration rooms available for you to browse and experience a wide range of our products. Stop by our store to meet some of the fantastic people who make Audiophile the best place to buy your portable audio equipment." 
+        }
+    ]
+
+}
